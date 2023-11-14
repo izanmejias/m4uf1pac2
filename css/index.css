@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(../img/maxresdefault.jpg);
+}
+
+p{
+    color: rgb(176, 174, 174);
+}
+
+nav{
+    background-color: rgb(39, 38, 38);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 1em;
+    border: solid 0.1em rgb(176, 174, 174);
+}
+
+nav:hover{
+    cursor: default;
+}
+
+nav li{
+    display: inline-block;
+    margin: 2em;
+    margin-right: 5em;
+    padding: 0.5em;
+    cursor: pointer;
+    border: solid 0.1em rgb(176, 174, 174);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(176, 174, 174);
+}
+
+nav li:hover{
+    background-color: grey;
+}
+
+#article1:hover{
+    background-color: rgb(77, 76, 76);
+    border: solid 0.1em rgb(219, 218, 218);
+    cursor: default;
+}
+
+#article2:hover{
+    background-color: rgb(77, 76, 76);
+    border: solid 0.1em rgb(219, 218, 218);
+    cursor: default;
+}
+
+#asidearticle{
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+aside{
+    float: left;
+    width: 32%;
+}
+
+aside img{
+    height: 100%;
+    width: 28.4em;
+    border: solid 0.1em rgb(176, 174, 174);
+}
+
+article{
+    float: right;
+    width: 66%;
+}
+
+#article1{
+    background-color: rgb(39, 38, 38);
+    border: solid 0.1em rgb(176, 174, 174);
+}
+
+#article2{
+    margin-top: 2em;
+    background-color: rgb(39, 38, 38);
+    border: solid 0.1em rgb(176, 174, 174);
+}
+
+#divarticle1{
+    padding: 4em;
+}
+
+#divarticle2{
+    padding: 4em;
+}
+
+footer{
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em;
+    border: solid 0.1em rgb(176, 174, 174);
+    background-color: rgb(39, 38, 38);
+    display: inline-block;
+    text-align: center;
+}
+
+footer p{
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+footer p:hover{
+    cursor: default;
+}
+
+footer img{
+    height: 3em;
+    width: 3em;
+    margin-left: 2em;
+}
+
+footer img:hover{
+    cursor: pointer;
+}

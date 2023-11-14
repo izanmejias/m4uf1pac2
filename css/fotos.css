@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(../img/avicii.009.jpeg);
+}
+
+header img{
+    width: 100%;
+    height: 20em;
+    margin: 3em;
+}
+
+nav{
+    background-color: rgb(39, 38, 38);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 1em;
+    border: solid 0.1em rgb(176, 174, 174);
+}
+
+nav:hover{
+    cursor: default;
+}
+
+nav li{
+    display: inline-block;
+    margin: 2em;
+    margin-right: 5em;
+    padding: 0.5em;
+    cursor: pointer;
+    border: solid 0.1em rgb(176, 174, 174);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(176, 174, 174);
+}
+
+nav li:hover{
+    background-color: grey;
+}
+
+aside{
+    width: 100%;
+    margin: 1em;
+}
+
+#uno{
+    height: 18em;
+    width: 33%;
+}
+
+#dos{
+    height: 18em;
+    width: 33%;
+}
+
+#tres{
+    height: 18em;
+    width: 33%;
+}
+
+#cuatro{
+    height: 18em;
+    width: 33%;
+}
+
+#cinco{
+    height: 18em;
+    width: 33%;
+}
+
+#seis{
+    height: 18em;
+    width: 33%;
+}
+
+footer{
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    border: solid 0.1em rgb(176, 174, 174);
+    background-color: rgb(39, 38, 38);
+    display: inline-block;
+    text-align: center;
+}
+
+footer p{
+    margin-bottom: 1em;
+    margin-left: 2em;
+    color: rgb(176, 174, 174);
+}
+
+footer p:hover{
+    cursor: default;
+}
+
+footer img{
+    height: 3em;
+    width: 3em;
+    margin-left: 2em;
+}
+
+footer img:hover{
+    cursor: pointer;
+}
